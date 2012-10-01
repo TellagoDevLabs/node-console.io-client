@@ -1,0 +1,19 @@
+{
+  "author": "Tellago Studios <silvio.massari@tellago.com>",
+  "name": "console.io-client",
+  "description": "Client package for console.io (https://github.com/TellagoDevLabs/node-console.io).",
+  "version": "0.0.1",
+  "repository": {
+    "type":"git",
+    "url": "https://github.com/TellagoDevLabs/node-console.io-client.git"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "socket.io-client":"0.9.10"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
