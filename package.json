@@ -2,7 +2,7 @@
   "author": "Tellago Studios <silvio.massari@tellago.com>",
   "name": "console.io-client",
   "description": "Client package for console.io (https://github.com/TellagoDevLabs/node-console.io).",
-  "version": "0.0.2a",
+  "version": "0.0.2",
   "repository": {
     "type":"git",
     "url": "https://github.com/TellagoDevLabs/node-console.io-client.git"
