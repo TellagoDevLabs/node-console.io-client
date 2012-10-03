@@ -10,7 +10,7 @@ simple.
 
 ```js
 	ncc.connect({
-			endpoint: "http://localhost:8080/console.io-log",
+			endpoint: "http://localhost:8080",
 			name: "marketplace"
 		}, function(err, result){
 	});
@@ -27,6 +27,7 @@ simple.
 Add this once in every node.js process:
 
 ```js
+	var ncc = require('console.io-client');
 	ncc.connect(options, callback);
 ```
 
@@ -37,8 +38,8 @@ Add this once in every node.js process:
 * `disableExec`: disable the remote execution of code.
 
 ### Contributors
-[Silvio Massari](https://github.com/silviom)
-[Gustavo Machado](https://github.com/machadogj)
+- [Silvio Massari](https://github.com/silviom)
+- [Gustavo Machado](https://github.com/machadogj)
 
 ## License 
 
